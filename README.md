@@ -1,11 +1,17 @@
-## Usage
+# Project Title
 
-To use this diffusion model with cosine schedule, you can run the `diffusion_cosine.py` script with the desired image and parameters. The script will load the image and apply the diffusion model with the specified schedule to generate a denoised version of the image. You can customize the schedule by adjusting the `cosine_beta_schedule` function in the script, which generates the beta values for each time step.
+Diffusion Model with Cosine Schedule
 
-## Contributing
+## Description
 
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. You can also open an issue to report a bug or request a new feature.
+This project is an implementation of a diffusion model for denoising images using a cosine schedule for the beta parameter. The diffusion model is a generative model that gradually adds noise to an image over time, resulting in a denoised version of the original image. The beta parameter determines the amount of noise that is added at each time step, and a linear or cosine schedule can be used to vary this parameter over time.
 
-## License
+## Installation
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+To run this project, you will need to install the following packages:
+
+- PyTorch
+- NumPy
+- Matplotlib
+
+These packages can be installed using pip or conda, depending on your preferred package manager. For example, you can install PyTorch with pip using the following command:
