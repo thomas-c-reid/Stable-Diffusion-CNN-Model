@@ -1,6 +1,6 @@
 # Project Title
 
-Diffusion Model with Cosine Schedule
+Standard Diffusion Model with Cosine Schedule
 
 ## Description
 
